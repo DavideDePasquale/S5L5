@@ -32,9 +32,7 @@ header{
 }
 .menu3 {
     margin-inline:9px;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
 
 }
 .menu3 a {
@@ -48,12 +46,11 @@ header{
     padding-bottom: 11px;
     padding-inline: 20px;
     color:white;
-    background-color: #191919;
-    font-family: "Roboto", sans-serif;
+    background-color: #191919; 
     font-weight: 400;
-    font-style: normal;
       border:none;
       transition: 1s;
+      cursor: pointer;
   
     
 
@@ -70,6 +67,9 @@ main {
     display:flex;
     width: 100%;
     height: 100%;
+}
+.emme img {
+   max-width: 100%;
 }
 .titolo{
     display: flex;
@@ -96,9 +96,8 @@ h1 {
 .titolo h5 {
     font-size:16px;
     padding-bottom:30px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
+
 }
 .titolo button{
     background-color: #191919;
@@ -107,10 +106,9 @@ h1 {
     padding-block: 7px;
     padding-inline:50px;
     font-size:17px;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
      border:none;
+     cursor:pointer;
  }
  .articoli {
     border-bottom:solid 1px #191919;
@@ -125,9 +123,7 @@ h1 {
     align-items: center;
     padding-top:50px;
     padding-bottom:3px;
-    font-family: "Roboto", sans-serif;
     font-weight: 800;
-    font-style:normal;
     font-size:10px;
 
  }
@@ -155,10 +151,7 @@ h1 {
     align-items: center;
     padding-left:10px;
     font-size:10px;
-    font-weight: 800;
-    font-family: "Roboto", sans-serif;
     font-weight: 600;
-    font-style: normal;
  }
  h6 img {
     border-radius: 100%;
@@ -179,9 +172,6 @@ h1 {
     margin-left:7px;
     font-weight: 800;
     padding-block:5px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    font-style: normal;
 
 
  }
@@ -193,9 +183,7 @@ h1 {
    font-size:9px;
    align-items: center;
    padding-top:3px;
-   font-family: "Roboto", sans-serif;
    font-weight: 600;
-   font-style: normal;
    
  }
  .citazioni img {
@@ -229,6 +217,7 @@ h1 {
  }
  section{
     margin-left:15%;
+    z-index:999;
     position: relative;
  }
  .vol2 img {
@@ -248,7 +237,9 @@ h1 {
     gap:3%;
     max-width: 100%;
     padding-top:40px;
-    position: relative;
+    position:relative;
+    z-index: 1000;
+    
  }
  .articoli-contenitore {
     flex:3;
@@ -256,6 +247,7 @@ h1 {
     flex-direction: column;
     max-width: 65%;
     position: relative;
+   
 
  }
  .item {
@@ -278,19 +270,13 @@ h1 {
  .text h5 {
     font-size:20px;
     margin:4px 0;
-    font-family: "Roboto", sans-serif;
-   font-weight: 800;
-   font-style: normal;
-    
+   font-weight: 800;    
  }
  .destrizione  {
-    font-size:14px;
     color:#b61616;
     margin:8px 0;
     padding-top:5px;
-    font-family: "Roboto", sans-serif;
    font-weight: 500;
-   font-style: normal;
     font-size:12px;
     color:#b9b0b0;
      
@@ -300,9 +286,7 @@ h1 {
     display: flex;
     font-size:9px;
     color:#b9b0b0;
-    font-family: "Roboto", sans-serif;
    font-weight: 600;
-   font-style: normal;
  }
  .dettagli.vol2{
     border-radius: 20px;
@@ -319,9 +303,7 @@ h1 {
     flex:1;
     padding:16px;
     border-radius: 8px;
-    position:sticky;
-    top:58px;
-    z-index: 999;
+    position: sticky;
  }
  .ricerca h3{
     font-size:10px;
@@ -402,9 +384,4 @@ h1 {
   color:#b9b0b0;
   font-weight: 600;
   
-}
-.scrollata {
-    position: sticky;
-    z-index: 999;
-    top:0;
 }

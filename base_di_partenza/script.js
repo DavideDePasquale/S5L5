@@ -1,6 +1,6 @@
 const header = document.querySelector("header");
 const button = document.getElementById("headBtn");
-const ricerca = document.getElementsByClassName("ricerca")
+const ricerca = document.querySelector(".ricerca");
 
 window.addEventListener("scroll", () => {
     if (window.scrollY>464) {
@@ -12,9 +12,14 @@ window.addEventListener("scroll", () => {
     }
 });
 window.addEventListener("scroll",()=> {
-    if (window.scrollY>550) {
-       ricerca.classList.add("scrollata");
+  const scrollTop = window.scrollY;
+    if(scrollTop>=790){
+        ricerca.style.position="fixed";
+        ricerca.style.top= "56.7px";
+        ricerca.style.marginLeft= "57.8%";
     } else {
-        ricerca.classList.remove("scrollata");
+        ricerca.style.position="unset";
+        ricerca.style.top="0px";
+        ricerca.style.marginLeft="";
     }
-})
+    })
