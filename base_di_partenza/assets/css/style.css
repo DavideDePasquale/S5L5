@@ -12,7 +12,7 @@ header{
     top:0;
     width:100%;
     z-index:1000;
-    transition: background-color 1s;
+    transition: background-color 0.5s;
 }
 .scrollare {
     background-color: white;
@@ -49,7 +49,7 @@ header{
     background-color: #191919; 
     font-weight: 400;
       border:none;
-      transition: 1s;
+      transition: 0.5s;
       cursor: pointer;
   
     
@@ -327,7 +327,7 @@ h1 {
     font-weight: 600;
  }
  section img {
-    max-width: 27%;
+    max-width: 29%;
     max-height: 100%;
  }
  .titolo4 {
@@ -385,3 +385,6 @@ h1 {
   font-weight: 600;
   
 }
+/* Prof, so che il font non è uguale, ma non riesco davvero a trovare quello giusto,
+ sono stato praticamente 3ore a trovare i font della "section", non riuscivo a trovarlo
+  nonostante sapessi i due font da utilizzare. Spero sia andato benino! :)*/
